@@ -1,6 +1,6 @@
 .container{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 /*Desigining nav items*/
 .nav-background,.logo{
@@ -37,6 +37,9 @@
 
 }
 /*Card*/
+.card img{
+    width: 80%;
+}
 .card{
     border: none;
     box-shadow: 2px 2px 5px whitesmoke;
