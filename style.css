@@ -1,0 +1,90 @@
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*Desigining nav items*/
+.nav-background,.logo{
+    background-color: rgb(248,249,250);
+}
+
+/*button*/
+.buy-button{
+    color: white;
+    width: 140px;
+    height: 45px;
+    border-radius: 9px;
+    background-color:black;
+    border: none;
+}
+/*desigining carousel indicators*/
+.carousel-indicators li {
+    background-color: #CECECE;
+    width: 20px;
+    height: 5px;
+    border-radius: 10px;
+}
+.carousel-indicators li.active {
+    height: 1px;
+    width: 30px;
+    background: linear-gradient(142deg, #FF9C35 0%, #FFD019 50%);
+    border-radius: 25%;
+}
+/*see all anchor*/
+.see-all{
+    color:rgb(255, 136, 0);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+/*Card*/
+.card{
+    border: none;
+    box-shadow: 2px 2px 5px whitesmoke;
+}
+.card p{
+    color: dimgray;
+}
+.card p,h5{
+    text-align: center;
+}
+
+/*card footer*/
+.card-footer{
+    border: none;
+    background-color: white;
+}
+/*catagories-heading*/
+.cat-border{
+        border-style: solid;
+        border-width: 5px 0 5px 0;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+        padding-top: 5px;
+        margin-top: 20px;
+        width: 12%;
+        margin: auto;
+        border-image: linear-gradient(45deg, rgba(19, 5, 41, 0.541), rgba(2, 24, 16, 0.959)) 1;
+        margin-bottom: 5%;
+}
+.col-md-6 img{
+    width: 85%;
+}
+#catagories h6{
+    padding-left: 40px;
+    font-weight: 650;
+}
+
+
+.merge-images0 img{
+    padding: 25px;
+    display: block;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow:25px 25px 50px rgb(206, 204, 204) ;
+}
+.merge-images1,.merge-images2 img{
+    box-shadow:25px 25px 50px rgb(206, 204, 204) ;
+    border-top-left-radius:20px ; 
+    border-bottom-right-radius: 20px;
+    padding:25px;
+}
