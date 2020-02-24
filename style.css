@@ -38,6 +38,7 @@
 }
 /*Card*/
 .card img{
+    padding-left: 25px;
     width: 80%;
 }
 .card{
